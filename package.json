@@ -1,0 +1,18 @@
+{
+  "name": "effect-demo",
+  "scripts": {
+    "start": "tsx watch --env-file=.env src/index.ts"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.70.0",
+    "@effect/platform-node": "^0.65.0",
+    "@effect/sql": "^0.22.0",
+    "@effect/sql-pg": "^0.23.0",
+    "effect": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
